@@ -22,6 +22,7 @@ FONT_FILE = ASSETS_PATH / "fonts/arial.ttf"
 BACKGROUND_MUSIC_PATH = ASSETS_PATH / "music/bg_music.mp3"
 FALLBACK_THUMBNAIL_FONT = ImageFont.load_default()
 YOUR_NAME = "Chaitanya"
+GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-3.6-flash")
 
 # Google's TTS endpoint throttles bursts from shared CI IPs. When it does, it answers
 # 200 OK with no audio stream, which gTTS surfaces as "Probable cause: Unknown".
@@ -130,7 +131,7 @@ def generate_curriculum(previous_titles=None):
         Respond with ONLY a valid JSON object. The object must contain a key "lessons" which is a list of 20 lesson objects.
         Each lesson object must have these keys: "chapter", "part", "title", "status" (defaulted to "pending"), and "youtube_id" (defaulted to null).
         """
-        response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
+        response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
         json_string = response.text.strip().replace("```json", "").replace("```", "")
         curriculum = json.loads(json_string)
         print("✅ New curriculum generated successfully!")
@@ -157,7 +158,7 @@ def generate_lesson_content(lesson_title):
 
         Return only valid JSON.
         """
-        response = client.models.generate_content(model='gemini-2.5-flash', contents=prompt)
+        response = client.models.generate_content(model=GEMINI_MODEL, contents=prompt)
         json_string = response.text.strip().replace("```json", "").replace("```", "")
         content = json.loads(json_string)
         print("✅ Lesson content generated successfully.")

@@ -9,7 +9,7 @@
     <img src="https://github.com/ChaitanyaEswarRajeshJakki/gemini-youtube-automation/actions/workflows/main.yml/badge.svg" alt="Daily Pipeline">
   </a>
   <img src="https://img.shields.io/badge/python-3.11-blue?logo=python&logoColor=white" alt="Python 3.11">
-  <img src="https://img.shields.io/badge/powered%20by-Gemini%202.5-orange?logo=google&logoColor=white" alt="Gemini 2.5">
+  <img src="https://img.shields.io/badge/powered%20by-Gemini%203.6-orange?logo=google&logoColor=white" alt="Gemini 3.6">
   <img src="https://img.shields.io/github/stars/ChaitanyaEswarRajeshJakki/gemini-youtube-automation?style=social" alt="Stars">
   <img src="https://img.shields.io/github/last-commit/ChaitanyaEswarRajeshJakki/gemini-youtube-automation" alt="Last Commit">
   <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
@@ -34,7 +34,7 @@
 Every day at **7:00 AM UTC**, this bot runs entirely on GitHub Actions and:
 
 1. **Reads** the content plan to pick the next pending lesson
-2. **Writes** a full multi-slide script using Gemini 2.5 Flash
+2. **Writes** a full multi-slide script using Gemini 3.6 Flash
 3. **Generates** narration audio (gTTS) and fetches Pexels background imagery
 4. **Renders** a professional slide-based video (1920×1080) with background music
 5. **Renders** a vertical YouTube Short (1080×1920) from the same lesson
@@ -58,7 +58,7 @@ GitHub Actions Scheduler (7 AM UTC)
            │
            ▼
   ┌─────────────────────────────────┐
-  │  Gemini 2.5 Flash               │
+  │  Gemini 3.6 Flash               │
   │  • 7–8 slide lesson script      │
   │  • 1-sentence YouTube Short     │
   │  • hashtags + metadata          │
@@ -103,7 +103,7 @@ GitHub Actions Scheduler (7 AM UTC)
 
 | Component | Technology |
 | --- | --- |
-| AI Script Generation | Google Gemini 2.5 Flash |
+| AI Script Generation | Google Gemini 3.6 Flash |
 | Text-to-Speech | gTTS |
 | Video Rendering | MoviePy + FFmpeg |
 | Image Generation | Pillow (PIL) + ImageMagick |
@@ -135,6 +135,7 @@ Go to **Settings → Secrets and variables → Actions** and add:
 | Secret | Description |
 | --- | --- |
 | `GOOGLE_API_KEY` | Gemini API key from Google AI Studio |
+| `GEMINI_MODEL` | Optional Gemini model name (defaults to `gemini-3.6-flash`) |
 | `PEXELS_API_KEY` | Pexels API key |
 | `CLIENT_SECRET_B64` | YouTube OAuth `client_secrets.json` encoded in base64 |
 | `CREDENTIALS_B64` | YouTube OAuth `credentials.json` encoded in base64 |
