@@ -1,144 +1,144 @@
 {
   "lessons": [
     {
-      "chapter": 5,
-      "part": 1,
-      "title": "NLP: Teaching AI to Understand and Talk Like Us",
+      "chapter": 6,
+      "part": 21,
+      "title": "Advanced RAG: Upgrading Your AI's Search Engine with Hybrid Search & Reranking",
       "status": "complete",
-      "youtube_id": "6o4R-dsD7HQ"
-    },
-    {
-      "chapter": 5,
-      "part": 2,
-      "title": "LLMs: AI's Super-Powered Storytellers and Problem Solvers",
-      "status": "complete",
-      "youtube_id": "Saok3rWi_fw"
-    },
-    {
-      "chapter": 5,
-      "part": 3,
-      "title": "Prompt Engineering: How to Ask AI the Right Questions for Amazing Answers",
-      "status": "complete",
-      "youtube_id": "r1W4dCG0Dxk"
-    },
-    {
-      "chapter": 5,
-      "part": 4,
-      "title": "Tokenization & Embeddings: AI Breaking Down Words and Finding Their Meaning",
-      "status": "complete",
-      "youtube_id": "VWPFzMAnGG0"
-    },
-    {
-      "chapter": 5,
-      "part": 5,
-      "title": "The Transformer: The AI Engine That Reads and Writes Like Never Before (Intro)",
-      "status": "complete",
-      "youtube_id": "drBSbRjq0D0"
+      "youtube_id": "FZlSFKvE5KM"
     },
     {
       "chapter": 6,
-      "part": 1,
-      "title": "Attention Mechanism: How AI Chooses What to Focus On (Transformers Deep Dive)",
-      "status": "complete",
-      "youtube_id": "Aoa8LHbInWI"
+      "part": 22,
+      "title": "GraphRAG: Teaching AI to Connect the Dots Like a Mind Map",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 6,
-      "part": 2,
-      "title": "Fine-tuning LLMs: Turning a General AI into Your Expert Assistant",
-      "status": "complete",
-      "youtube_id": "Q3l92NQlrv8"
-    },
-    {
-      "chapter": 6,
-      "part": 3,
-      "title": "Vector Databases: Storing and Finding AI's Memories in a Flash",
-      "status": "complete",
-      "youtube_id": "7skS7D0heIE"
-    },
-    {
-      "chapter": 6,
-      "part": 4,
-      "title": "Retrieval Augmented Generation (RAG): AI That Uses Its Brain AND Its Books",
-      "status": "complete",
-      "youtube_id": "VEoFjHLOmlo"
-    },
-    {
-      "chapter": 6,
-      "part": 5,
-      "title": "Building a RAG Application: Creating Your Own Smart AI Assistant with External Data",
-      "status": "complete",
-      "youtube_id": "9g4Yo_wZ36E"
+      "part": 23,
+      "title": "LLM Evaluation: How to Grade Your AI's Homework (Ragas & LLM-as-a-Judge)",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 7,
-      "part": 1,
-      "title": "Agent Frameworks: Giving Your AI a \"Brain\" and Tools to Think and Act",
-      "status": "complete",
-      "youtube_id": "zZmmqRymtQE"
+      "part": 24,
+      "title": "Guardrails & AI Safety: Putting Bouncers at the Door of Your AI App",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 7,
-      "part": 2,
-      "title": "Advanced Tool Use: Equipping Your AI with Custom Superpowers via LangChain",
-      "status": "complete",
-      "youtube_id": "LfUWfVvR3dE"
+      "part": 25,
+      "title": "LoRA & QLoRA: Customizing Huge AI Models on a Tight Budget",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 7,
-      "part": 3,
-      "title": "Agent Reasoning & Planning: How AI Breaks Down Problems and Solves Them Step-by-Step",
-      "status": "complete",
-      "youtube_id": "o-xDOOiOSJU"
-    },
-    {
-      "chapter": 7,
-      "part": 4,
-      "title": "LangGraph: Designing AI That Thinks in Steps and Reacts to Changes",
-      "status": "complete",
-      "youtube_id": "jYjd6D61sI4"
-    },
-    {
-      "chapter": 7,
-      "part": 5,
-      "title": "Building Complex Agent Applications: Orchestrating an AI Team for Big Projects",
-      "status": "complete",
-      "youtube_id": "TubNE4v8v44"
+      "part": 26,
+      "title": "Direct Preference Optimization (DPO): Teaching AI Right from Wrong Without the Complexity",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 8,
-      "part": 1,
-      "title": "RLHF: Teaching AI What We Really Want (The Secret Behind Amazing LLMs)",
-      "status": "complete",
-      "youtube_id": "co8ojDPa4os"
+      "part": 27,
+      "title": "Transformer Internals: Building Self-Attention from Scratch in Code",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 8,
-      "part": 2,
-      "title": "Beyond the Transformer: Glimpsing AI's Next Brain Designs (Mixture of Experts)",
-      "status": "complete",
-      "youtube_id": "DJjyJEHjXZM"
+      "part": 28,
+      "title": "KV Cache & Positional Encodings: Giving AI a Fast Memory Scratchpad",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 8,
-      "part": 3,
-      "title": "Multi-Modal AI: AI That Understands More Than Just Words (Images, Audio, Video)",
-      "status": "complete",
-      "youtube_id": "LRWJ70vYRrI"
+      "part": 29,
+      "title": "Quantization Demystified: Shrinking Giant AI Models to Fit on Your Laptop",
+      "status": "pending",
+      "youtube_id": null
     },
     {
       "chapter": 8,
-      "part": 4,
-      "title": "Designing Scalable AI Systems: Building AI That Can Grow with Your Ambitions",
-      "status": "complete",
-      "youtube_id": "F864Ot38eM8"
+      "part": 30,
+      "title": "vLLM & High-Speed Inference: Serving AI Responses at Lightning Speed",
+      "status": "pending",
+      "youtube_id": null
     },
     {
-      "chapter": 8,
-      "part": 5,
-      "title": "The Future of AI: What's Next for Autonomous Agents and Intelligent Systems",
-      "status": "complete",
-      "youtube_id": "nsIyIYcjhIw"
+      "chapter": 9,
+      "part": 31,
+      "title": "Structured Outputs: Forcing AI to Speak Clean Code and JSON",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 9,
+      "part": 32,
+      "title": "Advanced Multi-Agent Workflows: Running Your AI Team Like a Startup",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 9,
+      "part": 33,
+      "title": "Human-in-the-Loop AI: Keeping Humans in the Driver's Seat with LangGraph",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 9,
+      "part": 34,
+      "title": "AI Observability & Tracing: Opening the Hood of Your Running AI Application",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 10,
+      "part": 35,
+      "title": "Reinforcement Learning Foundations: Teaching AI Through Rewards and Dog Treats",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 10,
+      "part": 36,
+      "title": "PPO Explained: The Training Engine Behind ChatGPT and Gaming Bots",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 10,
+      "part": 37,
+      "title": "Small Language Models (SLMs) & Edge AI: Tiny AI Powerhouses That Run Offline",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 10,
+      "part": 38,
+      "title": "Speculative Decoding: The Trick That Makes AI Write 3x Faster",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 11,
+      "part": 39,
+      "title": "AI Red Teaming & Prompt Injection: Thinking Like a Hacker to Protect Your AI",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 11,
+      "part": 40,
+      "title": "The AI System Architect: Building Enterprise-Ready AI from Code to Cloud",
+      "status": "pending",
+      "youtube_id": null
     }
   ]
 }
